@@ -14,24 +14,29 @@ header {
   color: #FFFAFF;
 }
 
+h2 {
+  text-align: center;
+}
+
 nav ul {
   list-style: none;
   display: flex;
   justify-content: flex-end;
   flex-direction: row;
-  background-color: black;
+  background-color: #30BCED;
   padding: 0px;
 }
 
 nav a {
   color: #FFFAFF;
-  padding: 0 20px;
+  background-color: #30BCED;
+  padding: 0 0px;
   transition: all 0.3s ease 0s;
   margin-right: 10px;
 }
 
 nav a:hover {
-  color: #30BCED;
+  color: #FC5130;
 }
 
 #containerimage {
@@ -39,24 +44,63 @@ nav a:hover {
   height: auto;
 }
 
+#about {
+  background-color: #FC5130;
+  padding: 0px;
+}
+
 main.wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 300px;
+  padding: 0 0px;
 }
 
-.page-section {
-  margin: 20px;
+.work-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 40px;
+  padding: 20px;
 }
 
 .work-item {
   text-align: center;
 }
 
-.work-item img {
-  width: 100%;
-  cursor: pointer;
+.work-item.big {
+  grid-column: span 2;
 }
 
+.work-item img {
+  width: 100%;
+  max-width: 100%;
+  cursor: pointer;
+  border: 2px solid #333;
+  border-radius: 8px;
+}
 
+/* .work-item.big {
+  grid-column: span 1;
+  grid-row: span 2;
+} */
+
+.page-section {
+  margin: 20px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+@media (min-width: 600px) {
+  .work-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 900px) {
+  .work-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
