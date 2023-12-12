@@ -2,6 +2,8 @@
 
 https://alligatorpulpfiction.github.io/rosie-harries-portfolio/
 
+![Website Screenshot](https://github.com/alligatorpulpfiction/rosie-harries-portfolio/blob/main/READMEScreenshot1.png?raw=true)
+
 <h2>Project description</h2>
 
 <p> This website has been built by Rosie Harries, to act as a portfolio on which to build upon her future projects. It was also an opportunity to get used to working with GitHub, like with commiting changes. This website has been designed to demonstrate what she has learnt about CSS in the second week of bootcamp. This has included the following:
