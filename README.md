@@ -2,7 +2,7 @@
 
 https://alligatorpulpfiction.github.io/rosie-harries-portfolio/
 
-![Screenshot1](relative%20path/to/README-screenshot1.png?raw=true "Title")
+![Screenshot1](README-screenshot1.png)
 
 <h2>Project description</h2>
 
