@@ -1,8 +1,14 @@
 <h1>A portfolio webpage for Rosie Harries</h1>
 
+<h2>Link to deployed webpage</h2>
 https://alligatorpulpfiction.github.io/rosie-harries-portfolio/
 
+
 ![Screenshot1](README-screenshot1.png)
+
+![Screenshot1](README-screenshot2.png)
+
+![Screenshot1](README-screenshot3.png)
 
 <h2>Project description</h2>
 
